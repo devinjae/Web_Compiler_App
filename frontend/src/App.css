@@ -1,0 +1,23 @@
+.cm-editor{
+  background-color: ghostwhite;
+  max-height: 90vh;
+  min-height: 90vh;
+}
+.cm-scroller{
+  min-height: 90vh;
+}
+
+.output-container{
+  min-height:90vh;
+  max-height: 90vh;
+  width: inherit;
+  resize: none;
+  border-color: aliceblue;
+  background-color: aliceblue;
+  line-height: normal;
+}
+
+.selected-btn{
+  background-color: #9ba6a5;
+}
+

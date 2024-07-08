@@ -1,7 +1,0 @@
-FROM r-base:4.4.0
-ARG FILE_DIRECTORY_ARG
-ARG FILENAME_ARG
-WORKDIR /usr/src/myapp
-COPY ${FILE_DIRECTORY_ARG} /usr/src/myapp
-ENV FILENAME_ENV=${FILENAME_ARG}
-CMD ["sh", "-c",  "sleep 1 && Rscript ${FILENAME_ENV}.R"]
